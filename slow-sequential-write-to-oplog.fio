@@ -1,0 +1,12 @@
+[global]
+bs=1024k
+randrepeat=0
+direct=1
+iodepth=1
+ioengine=libaio
+rw=write
+time_based
+runtime=3600
+size=32g
+[write]
+filename=/dev/sde1

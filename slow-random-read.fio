@@ -1,0 +1,11 @@
+[global]
+bs=8k
+randrepeat=0
+direct=0
+iodepth=1
+rw=randread
+time_based
+runtime=3600
+size=32g
+[read]
+filename=/dev/sde1
